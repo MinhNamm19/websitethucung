@@ -1,0 +1,741 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(54, 74, 129);
+}
+a:hover{
+    color: rgb(127, 150, 228);
+}
+.ten{
+    font-size: 25px;
+    color: black;
+}
+#vb1{
+    font-size: 25px;
+}
+.btn1{
+    color: aliceblue;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.menu{
+    text-align: center;
+    width: 90%;
+    height: 150px;
+    padding-left: 60px;
+
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    text-transform: uppercase;
+}
+.menu img{
+    margin: 0px 15px -30px;
+    width: 120px;
+}
+.menu img:hover{
+    opacity: 0;
+}
+.menu{
+    font-size: 25px;
+}
+.slice  img{
+    width: 1200px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.slice{
+    margin: auto;
+    width: 80%;
+    margin-top: 30px;
+    position: relative;
+}
+.slice .left{
+    width: 400px;
+    position: absolute;
+    left: 75px;
+    top: 120px;
+}
+.slice .left{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+.btn{
+    padding: 15px 40px;
+    background-color: rgb(135, 177, 215);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 330px;
+    margin-left: 100px;
+}
+.slice .right{
+    position: absolute;
+    bottom: 20px;
+    right: 310px;
+}
+.hidden{
+    background-color: rgb(221,234,255);
+    margin-right: 30px;
+    color: rgb(144,185,224);
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+.hidden:hover{
+    color: rgb(100, 125, 178);
+}
+.btn:hover{
+    background-color: rgb(112, 149, 207);
+}
+.banner{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+#bannerLeft{
+    width: 650px;
+    height: 670px;
+    margin-right: 50px;
+    float: left;
+    background-image: url(bn2.png);
+    border-radius: 30px;
+    position: relative;
+}
+#bannerRight{
+    width: 500px;
+    height: 883px;
+    float: left;
+    background-image: url(bn3.jpg);
+    border-radius: 30px;
+    background-size: cover;
+    position: relative;
+}
+.view1{
+    position: absolute;
+    left: 480px;
+    bottom: 120px;
+    font-size: 50px;
+    color: rgb(229,169,80);
+    font-family: 'Courier New', Courier, monospace;
+}
+.view2{
+    position: absolute;
+    left: 60px;
+    bottom: 220px;
+    font-size: 50px;
+    color: rgb(72,48,36);
+    font-family: 'Courier New', Courier, monospace;
+}
+.view1:hover{
+    color: rgb(247, 214, 143);
+}
+.view2:hover{
+    color: rgb(164, 124, 105);
+}
+#title{
+    padding-left: 100px;
+    font-size: 50px;
+    color: rgb(119, 32, 32);
+}
+.sp, .ten, .gia, .mua{
+    width: 280px;
+    margin-left: 10px;
+    float: left;
+}
+.sp:first-child, .ten:first-child, .gia:first-child, .mua:first-child{
+    margin-left: 0;
+}
+.sp{
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.sp img{
+    -webkit-transform: scale(1.0);
+       -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+         -o-transform: scale(1.0);
+            transform: scale(1.0);
+}
+.sp img:hover{
+    -webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+         -o-transform: scale(1.5);
+            transform: scale(1.5);
+}
+.ten p{
+    color: rgb(56, 65, 122);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.gia{
+    font-size: 35px;
+    font-weight: bold;
+    width: 280px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.layer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gia span{
+    font-size: 25px;
+}
+.mua{
+    text-align: center;
+}
+.btm{
+    padding: 15px 55px;
+    background-color: rgb(135, 177, 215);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+.btm:hover{
+    background-color: rgb(112, 149, 207);
+}
+.hi img{
+    width: 1200px;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.vanban p{
+    color: rgb(60, 75, 149);
+}
+.vanban{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+#tieude{
+    font-size: 50px;
+    color: rgb(119, 32, 32);
+}
+.dcmm{
+    background-color: rgb(182, 212, 255);
+    width: 100%;
+}
+.content{
+    margin: auto;
+    width: 100%;
+    clear: left;
+    margin: 30px;
+}
+.layer {
+    margin: auto;
+    width: 80%;
+}
+.hihi img{
+    margin-top: 10px;
+}
+
+.footer {
+    width: 100%px;
+    height: 180px;
+    margin: auto;
+    background-color: rgb(182, 212, 255);
+}
+.footer-edit {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-left: 80px;
+    padding: 15px;
+
+}
+.space-top {
+    margin-top: 40px;
+}
+.footer-list-information {
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+}
+ul li {
+    display: block;
+}
+.item-footer {
+    margin-top: 10px;
+}
+.lienket {
+    width: 100%;
+    margin: auto;
+    height: 80px;
+    background-color: rgb(182, 212, 255);
+    margin-top: 10px;
+}
+.lienket-edit {
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-lk-img {
+    margin: auto;
+    padding: 0px;
+    padding-left: 400px;
+}
+.row-flex {
+    width: 100%;
+    margin: auto;
+}
+.cmn {
+    font-size: 18px;
+    color: rgb(82, 87, 167);
+}
+.list-lk-img img{
+    border-radius: 10px;
+}
+h3{
+    font-size: 20px;
+}
+.item-footer{
+    font-size: 16px;
+    color: rgb(50, 77, 159);
+}
+.item-footer:hover{
+    color: rgb(162, 66, 66);
+}
+.banner1 img{
+    margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 30px;
+}
+/*Đồ Ăn Cho Chó*/
+#tieude1{
+    padding: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    font-size: 40px;
+    color: rgb(111, 44, 44);
+    font-weight: 600;
+}
+
+.doancho, .tencho{
+    width: 350px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.doancho:first-child, .tencho:first-child{
+    margin-left: 0;
+}
+.doancho img{
+    -webkit-transform: scale(1.0);
+       -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+         -o-transform: scale(1.0);
+transform: scale(1.0);
+}
+.doancho img{
+    margin-top: 40px;
+}
+.doancho img:hover{
+    -webkit-transform: scale(1.3);
+       -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+         -o-transform: scale(1.3);
+            transform: scale(1.3);
+}
+.tencho {
+    
+    font-size: 23px;
+    font-weight: 600;
+}
+.doan{
+    width: 25%;
+}
+.cho1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.hihi{
+    width: 100%;
+    margin: auto;    
+}
+.tencho {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.gia1 {
+    margin-top: 10px;
+    color: rgb(55, 80, 131);
+    font-size: 25px;
+}
+.loai1{
+    font-size: 20px;
+    color: rgb(160, 60, 60);
+}
+
+
+.banner2{
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.banner3{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 460px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+}
+.bt2{
+    padding: 15px 15px;
+    background-color: rgb(139, 171, 215);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.bt2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(115, 141, 203);
+}
+.tieudehihi p{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(120, 41, 41);
+}
+.tieudehihi{
+    box-shadow: 0 0 0 2px rgb(154, 179, 239);
+    height: 25px;
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(235, 244, 255);
+}
+.sanpham1{
+    box-shadow: 0 0 0 4px rgb(154, 179, 239);
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+.anh1{
+    margin-top: 20px;
+    margin-left: 10px;
+    flex-basis: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.anh1 img{
+    border-radius: 20px;
+}
+.dcm{
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome {
+    background-color: rgb(99, 134, 183);
+    height: 200px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+.welcome-list {
+    margin-top: 30px;
+    padding-left: 10px;
+}
+h2 {
+    font-size: 30px;
+}
+.welcome-text {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-text {
+    font-size: 15px;
+}
+.main {
+    width: 100%;
+    margin: auto;
+}
+.main-edit {
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    margin: auto;
+}
+.main-img {
+    height: 70px;
+    width: 70px;
+}
+.main-list {
+    
+    width: 33%;
+    height: 600px;
+}
+.main-list-item {
+    width: 40%;
+    margin-top: 20px;
+    padding: 0 20px 0 20px;
+}
+.dime {
+    padding-left: 35px;
+    width: 30%;
+}
+.dime {
+    width: 30%;
+}
+h3 {
+    font-size: 18px;
+    color: var(--text-color);
+}
+.main-text {
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--text-color);
+    display: block;
+}
+.main-list-item h3{
+    font-size: 25px;
+    color: rgb(43, 55, 106);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-login {
+    height: 700px;
+    width: 35%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: -120px;
+    box-shadow: 0 0 0 1px rgba(127, 140, 202, 0.2);
+}
+.login-header {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(59, 83, 135);
+}
+.login-header2 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(157, 89, 89);
+}
+.login-input {
+    margin-top: 30px;
+    height: 50px;
+    width: 80%;
+    border-radius: 30px;
+    
+}
+.login-button {
+    margin-top: 30px;
+    height: 40px;
+    width: 140px;
+    background-color: rgb(120, 156, 207);
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.class-click {
+    color: rgb(201, 52, 39);
+}
+
+.login-list {
+   margin-top: 70px;
+}
+.login-button2 {
+    height: 45px;
+    width: 80%;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.login-text {
+    font-size: 16px;
+    text-align: center;
+}
+.button-edit {
+    margin-bottom: 20px;
+}
+.row-flex {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.header-mua{
+    margin-left: 50px;
+}
+.header-a{
+   margin-top: 100px;
+}
+.text {
+    font-size: 60px;
+    color: rgb(39, 77, 130);
+}
+.text {
+   margin-top: -60px;
+   margin-left: 80px;
+}
+.text1{
+    margin-top: 13px;
+    font-size: 25px;
+    margin-left: 80px;  
+    color: rgb(126, 25, 25);
+}
+.header-logo{
+    margin-top: 30px;
+}
+.header-danhgia{
+    display: flex;
+}
+.ab {
+    font-size: 20px;
+    margin-top: 2px;
+}
+.header-danh{
+    font-size: 20px;
+    color: rgb(29, 50, 82);
+}
+.header-gia{
+    margin-left: 15px;
+    margin-top: 2px;
+}
+.header-danhgia{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.header-soluong{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.textso{
+    font-size: 20px;
+    margin-left: 50px;
+}
+.tru{
+    margin-left: 10px;
+}
+.tru button{
+    padding: 4.5px 6px;
+    background-color: rgb(227, 236, 249);
+    border: 1px solid rgb(124, 134, 172);
+}
+.tru button:hover {
+    background-color: rgb(194, 217, 255);
+}
+.nhap{
+    margin-left: -0.8px;
+}
+.nhap input{
+    font-size: 15px;
+    width: 80px;
+    padding: 3px;
+}
+.cong{
+    margin-left: -2px;
+}
+.cong button{
+    padding: 4.5px;
+    background-color: rgb(227, 236, 249);
+    border: 1px solid rgb(124, 134, 172);
+}
+.cong button:hover {
+    background-color: rgb(194, 217, 255);
+}
+.header-them button{
+    background-color: rgb(220, 235, 255);
+    padding: 10px 20px;
+    border: 1px solid rgb(44, 89, 157);
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: -110px;
+}
+.header-them p{
+    font-size: 20px;
+    color: rgb(52, 69, 121);
+}
+.header-mua button{
+    padding: 10px;
+}
+.header-them button:hover{
+    background-color: rgb(196, 220, 255);
+}
+
+
+.header-mua button{
+background-color: rgb(116, 172, 255);
+    padding: 11px 20px;
+    border: 1px solid rgb(44, 89, 157);
+    border-radius: 5px;
+    margin-left: -30px;
+    margin-top: 60px;
+}
+.header-mua p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.header-mua button:hover{
+    background-color: rgb(142, 186, 252);
+}
+.ab{
+    margin-left: 10px;
+    color: rgb(29, 50, 82);
+}
+.chitiet p{
+    font-size: 25px;
+    margin-left: 270px;
+    margin-top: 20px;
+    color: rgb(43, 60, 113);
+}
+#cmm p{
+    font-size: 18px;
+    margin-left: 270px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+    margin-top: 20px;
+    color: rgb(43, 60, 113);
+}
+.header{
+    margin-left: 190px;
+}

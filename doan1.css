@@ -1,0 +1,168 @@
+.header{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.header-mua{
+    margin-left: 50px;
+}
+.header-a{
+   margin-top: 100px;
+}
+.text {
+    font-size: 60px;
+    color: rgb(39, 77, 130);
+}
+.text {
+   margin-top: -60px;
+   margin-left: 80px;
+}
+.text1{
+    margin-top: 13px;
+    font-size: 25px;
+    margin-left: 80px;  
+    color: rgb(126, 25, 25);
+}
+.header-logo{
+    margin-top: 30px;
+}
+.header-danhgia{
+    display: flex;
+}
+.ab {
+    font-size: 20px;
+    margin-top: 2px;
+}
+.header-danh{
+    font-size: 20px;
+    color: rgb(29, 50, 82);
+}
+.header-gia{
+    margin-left: 15px;
+    margin-top: 2px;
+}
+.header-danhgia{
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.header-soluong{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.soluong select{
+    padding: 0 40px 10px 0;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.textso{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.tru{
+    margin-left: 10px;
+}
+.tru button{
+    padding: 4.5px 6px;
+    background-color: rgb(227, 236, 249);
+    border: 1px solid rgb(124, 134, 172);
+}
+.tru button:hover {
+    background-color: rgb(194, 217, 255);
+}
+.nhap{
+    margin-left: -0.8px;
+}
+.nhap input{
+    font-size: 15px;
+    width: 80px;
+    padding: 3px;
+}
+.cong{
+    margin-left: -2px;
+}
+.cong button{
+    padding: 4.5px;
+    background-color: rgb(227, 236, 249);
+    border: 1px solid rgb(124, 134, 172);
+}
+.cong button:hover {
+    background-color: rgb(194, 217, 255);
+}
+.header-them button{
+    background-color: rgb(220, 235, 255);
+    padding: 10px 20px;
+    border: 1px solid rgb(44, 89, 157);
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: -110px;
+}
+.header-them p{
+    font-size: 20px;
+    color: rgb(52, 69, 121);
+}
+.header-mua button{
+    padding: 10px;
+}
+.header-them button:hover{
+    background-color: rgb(196, 220, 255);
+}
+
+
+.header-mua button{
+    background-color: rgb(116, 172, 255);
+    padding: 11px 20px;
+    border: 1px solid rgb(44, 89, 157);
+    border-radius: 5px;
+    margin-left: -30px;
+    margin-top: 60px;
+}
+.header-mua p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+.header-mua button:hover{
+    background-color: rgb(142, 186, 252);
+}
+.ab{
+    margin-left: 10px;
+    color: rgb(29, 50, 82);
+}
+.chitiet p{
+    font-size: 35px;
+    margin-left: 270px;
+    margin-top: 20px;
+    color: rgb(43, 60, 113);
+}
+.header{
+    margin-left: 190px;
+}
+.mo {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.textt{
+    font-size: 20px;
+}
+.mota{
+    width: 75%;
+    margin-left: 150px;
+    margin-top: 20px;
+    
+}
+.textt{
+    margin-bottom: 20px;
+}
+.loiich{
+    width: 75%;
+    margin-left: 150px;
+}
+.loi{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.ull{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
